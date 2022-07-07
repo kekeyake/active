@@ -1,0 +1,13 @@
+@charset "utf-8";
+@import 'reset';
+$viewport : 390;
+@function vw($pixels) {
+    @return #{
+        ($pixels * 100) / $viewport
+    }vw;
+}
+
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
