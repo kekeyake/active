@@ -11,3 +11,35 @@ $viewport : 390;
 body {
     font-family: 'Manrope', sans-serif;
 }
+main {        
+    .inner {
+        margin:0 auto;
+        max-width: 1040px;
+        position: relative;
+    }    
+}
+.active_top {
+    padding-top: 54px;
+    height: 836px;
+    background-color: #EEEEEE;    
+    .phone_box {
+        width: 654px;
+        height: 836px;
+        position: absolute;
+        right: 0;
+        top:57px;
+        padding-right: 127px;
+        .img {
+            width: 502px;
+        }
+        .movie_box {
+            position: absolute;
+            background-color: rgba(0,0,0,.1);
+            width: 306px;
+            height: 647px;
+            right: 198px;
+            top:90px;
+            border-radius: 10px;
+        }
+    }
+}
