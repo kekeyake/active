@@ -136,12 +136,35 @@ main .inner {
   font-size: 16px;
   color: #000;
   text-decoration: none;
+  position: relative;
 }
 
 .active_top .btn_wrap__link:hover {
   text-decoration: none;
   -webkit-box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.1);
           box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.active_top .btn_wrap__link span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 92px;
+  height: 30px;
+  color: #fff;
+  background: #FF650F;
+  border-radius: 40px;
+  font-weight: 800;
+  font-size: 9px;
+  position: absolute;
+  top: -15px;
+  right: -10px;
 }
 
 .active_top .sns_wrap {
@@ -226,7 +249,7 @@ main .inner {
 }
 
 .active_enjoy {
-  background-color: #000;
+  background: #000 url(../img/bg_enjoy.png) no-repeat 50% 50%/cover;
   min-height: 836px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -626,6 +649,7 @@ footer .copy {
             box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.5);
   }
   .active_enjoy {
+    background: #000 url(../img/bg_enjoy.png) no-repeat 80% 50%/cover;
     height: 100vh;
   }
   .active_enjoy .t1 {
