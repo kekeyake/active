@@ -417,6 +417,7 @@ main .inner {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+  margin: 0 !important;
 }
 
 .active_team__list li {

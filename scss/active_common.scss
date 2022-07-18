@@ -266,6 +266,7 @@ main {
     }
     &__list {      
         width: max-content;
+        margin: 0 !important;
         li {
             width: 176px;
             padding-right: 50px;
