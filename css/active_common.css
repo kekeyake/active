@@ -387,7 +387,7 @@ main .inner {
 }
 
 .active_team {
-  padding: 167px 0 0 0;
+  padding: 167px 0 200px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
