@@ -460,6 +460,13 @@ main .inner {
   font-size: 14px;
 }
 
+.active_team__info {
+  margin-top: 7px;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: -0.05em;
+}
+
 .active_team__link {
   font-weight: 600;
   font-size: 15px;

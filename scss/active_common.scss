@@ -297,6 +297,12 @@ main {
         font-weight: 400;
         font-size: 14px;
     }
+    &__info {
+        margin-top: 7px;
+        font-weight: 600;
+        font-size: 15px;
+        letter-spacing: -0.05em;
+    }
     &__link {
         font-weight: 600;
         font-size: 15px;
